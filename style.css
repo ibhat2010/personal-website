@@ -1,16 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html {
   height: 100%;
   width: 100%;
 }
 
 img{
-  width: 200px;
+  width: 80%;
   border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
 }
 
 body{
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background: yellow;
+  font-family: Poppins, Helvetica, sans-serif;
+  background: #ffff70;
   color: blue;
+}
+
+h1{
+  background-color: #ccffcc;
+  padding: 3%;
+  border-style: dotted;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: black;
+  width: 90%;
 }
